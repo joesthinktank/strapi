@@ -57,5 +57,11 @@ yarn
 3. Start the application
 
 ```sh
+docker-compose up --build -d
+```
+
+4. Start the application
+
+```sh
 yarn develop
 ```
