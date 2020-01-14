@@ -57,5 +57,5 @@ yarn
 3. Start the application
 
 ```sh
-yarn start
+yarn develop
 ```
