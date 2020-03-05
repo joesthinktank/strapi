@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/trials",
-      "handler": "trial.find",
+      "path": "/defaults",
+      "handler": "default.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/trials/count",
-      "handler": "trial.count",
+      "path": "/defaults/count",
+      "handler": "default.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/trials/:id",
-      "handler": "trial.findOne",
+      "path": "/defaults/:id",
+      "handler": "default.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/trials",
-      "handler": "trial.create",
+      "path": "/defaults",
+      "handler": "default.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/trials/:id",
-      "handler": "trial.update",
+      "path": "/defaults/:id",
+      "handler": "default.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/trials/:id",
-      "handler": "trial.delete",
+      "path": "/defaults/:id",
+      "handler": "default.delete",
       "config": {
         "policies": []
       }

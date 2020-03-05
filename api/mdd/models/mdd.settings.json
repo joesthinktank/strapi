@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "mdds",
+  "info": {
+    "name": "mdd"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_content": {
+      "type": "richtext"
+    },
+    "hero_image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "sponsor_1": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "sponsor_2": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "eligible_qualify": {
+      "type": "richtext"
+    },
+    "eligible_dont_qualify": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "connection": "default",
+  "collectionName": "defaults",
+  "info": {
+    "name": "Default"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_body": {
+      "type": "richtext"
+    },
+    "hero_image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "sponsor_body": {
+      "type": "string"
+    },
+    "sponsor_image_1": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "sponsor_image_2": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "eligible_qualify": {
+      "type": "richtext"
+    },
+    "eligible_dont_qualify": {
+      "type": "richtext"
+    },
+    "hero_highlights": {
+      "type": "richtext"
+    },
+    "form_link": {
+      "type": "string"
+    }
+  }
+}

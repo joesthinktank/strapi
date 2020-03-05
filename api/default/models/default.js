@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `trial` model.
+ * Lifecycle callbacks for the `default` model.
  */
 
 module.exports = {
