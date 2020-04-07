@@ -10,46 +10,54 @@
   },
   "attributes": {
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "hero_title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "hero_body": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "hero_image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "sponsor_body": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "sponsor_image_1": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "sponsor_image_2": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "eligible_qualify": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "eligible_dont_qualify": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "hero_highlights": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "form_link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
